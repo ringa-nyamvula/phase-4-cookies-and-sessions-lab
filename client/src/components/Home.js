@@ -21,7 +21,7 @@ function Home() {
               <Link to={`/articles/${article.id}`}>{article.title}</Link>
             </h3>
             <small>
-              {article.date} • {emojis} {article.minutes_to_read} min read
+              {article.date} • {emojis} • {article.minutes_to_read} min read
             </small>
             <p>{article.preview}</p>
           </article>

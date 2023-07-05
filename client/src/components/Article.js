@@ -47,7 +47,7 @@ function Article() {
       <h1>{title}</h1>
       <small>
         <p>
-          {date} • {emojis} {minutes_to_read} min read
+          {date} • {emojis} • {minutes_to_read} min read
         </p>
         <p>
           <em>Written by {author}</em>
